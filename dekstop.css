@@ -1,0 +1,155 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* nevber design start*/
+
+.nevlogo{
+    text-align: left;
+   
+    
+}
+.nevhead{
+    text-align: right;
+    padding-top: 50px;
+}
+
+.nevmenu{
+    flex-direction: row;
+    justify-content:flex-end
+}
+
+.nevmenu{
+    padding-top: 50px;
+}
+
+.nevmenu a{
+     padding: 5px 10px;
+     margin: 20px;
+     background-color: transparent;
+}
+/*nevber design end here*/
+
+/* profile design start */
+
+.profile .top-weather-icon{
+
+    
+    right: 100px;
+    top: 20px;
+    transition: width 2s, transform 2s ;
+}
+.profile .top-weather-icon:hover{
+    width: 140px;
+}
+
+.profile .down-weather-icon{
+    left: 100px;
+    bottom: 20px;
+    transition: width 2s , transform 2s;
+
+}
+
+.profile .down-weather-icon:hover{
+    width: 140px;
+}
+
+.pro-disc p{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto ;
+    margin-bottom: 10px;
+}
+
+
+/*profiel design end */
+
+/* about me start */
+ .img{
+
+    margin-top: 200px;
+    
+    
+ }
+
+ .img img{ 
+    height: 800px;
+    width: 250px;
+ }
+
+ .my-decs p{
+
+    text-align: left;
+ }
+   
+
+/* about me ends */
+
+/* professional experiance start */
+.pro-ex{
+    padding: 1% 5%;
+}
+.work-ex{
+    margin: 5px;
+    width: 34%;
+}
+
+.education{
+    margin: 5px;
+    width: 34%;
+}
+
+.skill{
+    margin: 5px;
+    width: 30%;
+}
+
+
+/* professional experiance end */
+
+/* contact start here */
+
+.acchive{
+
+    padding-right: 50px;
+}
+
+.contact-me button{
+    width: 150px;
+}
+
+.smm-icon{
+    position: relative;
+}
+
+.media{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 200px;
+}
+/* contact end here */
+
+/* footer start here */
+
+.footer-menu{
+    margin-top: 12px;
+    
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+
+}
